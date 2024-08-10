@@ -3,8 +3,7 @@ header {
   font: var(--text-md);
 }
 
-header
-.container {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,8 +14,15 @@ header
   gap: 32px;
 }
 
-#profile > div {
+#profile>div {
   max-width: 384px;
+}
+
+#profile img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 #profile h1 {
@@ -31,7 +37,7 @@ header
   flex-direction: column;
   gap: 16px;
 
-  width: 180px;
+  width: 280px;
 }
 
 #info li {
